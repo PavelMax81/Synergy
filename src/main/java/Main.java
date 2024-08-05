@@ -14,6 +14,7 @@ public class Main {
 
     public static void createDirectory(String dirName) {
         File directory = new File(dirName);
+        System.out.println("Directory "+dirName+" is created.");
 
         if (!directory.exists()) {
             directory.mkdir();
