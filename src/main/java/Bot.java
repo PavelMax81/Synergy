@@ -90,7 +90,7 @@ public class Bot extends TelegramLongPollingBot {
 
         for(int i = 0; i < number; i++){
             User user = new User();
-            user.setUserName("Member # "+i);
+            user.setUserName("User # "+i);
             members.add(user);
         }
         message.setNewChatMembers(members);
